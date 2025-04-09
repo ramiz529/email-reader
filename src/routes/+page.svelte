@@ -9,4 +9,7 @@
 </script>
 
 <!-- HTML code -->
-<Button class="bg-blue-400 text-white p-6" variant="outline" onclick={goToStartPage}>Button</Button>
+<div class="mt-5 flex flex-col gap-12 items-center">
+	<h1 class="text-4xl">Welcome</h1>
+	<Button class="w-fit py-4 px-8 text-xl" onclick={goToStartPage}>Start</Button>
+</div>
