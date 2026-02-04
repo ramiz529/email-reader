@@ -72,7 +72,10 @@
   * {
     @apply border-border;
   }
+  html,
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background-color: #fbcfe8 !important; /* darker pink - pink-200 */
+    min-height: 100%;
   }
 }
